@@ -1,0 +1,38 @@
+"#row": {
+	height: '50dp',
+	backgroundColor: '#fff',
+	focusable: false
+}
+
+"#task": {
+	top: '5',
+	left: '25dp',
+	right: '50dp',
+	font: {
+		fontSize: '18dp'
+	}
+}
+
+"#shareButton": {
+	height: "20",
+	right: "10"
+}
+
+"#deleteButton":{
+	right: "10"
+}
+
+"#statusColor": {
+	left: '0',
+	width: "10",
+	borderColor: "#000"
+}
+
+"#dueDate":{
+	top: '80',
+	left: '25dp',
+	right: '50dp',
+	font: {
+		fontSize: '12dp'
+	}
+}

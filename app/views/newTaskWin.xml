@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="newTaskWin" title="Add New Task" modal="true" onOpen="onFocusTextField">
+		<Label class="label">WHAT IS IT TO BE DONE?</Label>
+		<TextField id="taskTextField" class="textField" onReturn="onCloseKeyboard"/>
+		<Label id="dueDate">DUE DATE</Label>
+		<TextField id="taskDateField" class="textField" onClick="onTaskDateField"/>
+		<Label id="addImage">ADD IMAGE</Label>
+		<View id="test" height="120">
+			<Button id="buttonGallery" class="imgButton" left="70" onClick="onClickButtonGallery">Gallery</Button>
+			<Button id="buttonCamera" class="imgButton"  right="70" onClick="onClickButtonCamera">Camera</Button>
+		</View>
+		<ImageView id="taskImage" ></ImageView>
+		<Button class="imgButton" onClick="onAddTask">Add Task</Button>
+		<Button class="imgButton" onClick="onCloseWindow" top="5">Cancel</Button>
+		<View id="pickerView"></View>
+	</Window>
+</Alloy>

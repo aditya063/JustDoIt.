@@ -1,0 +1,52 @@
+"#newTaskWin":{
+	layout: 'vertical',
+	barColor: '#a00'
+}
+
+".textField":{
+	color: '#000',
+	width: '90%',
+	top: '5',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+	hintText: "Type your task here..."
+}
+
+"#dueDate":{
+	top: "10",
+	left: "10dp",
+	color: "#2554C7",
+	font: {
+		fontSize: '14dp'
+	}
+}
+
+"#pickerView": {
+	visible: "false",
+	top: "1"
+}
+
+"#addImage":{
+	top: "10",
+	left: "10dp",
+	color: "#2554C7",
+	font: {
+		fontSize: '14dp'
+	}
+}
+
+".label":{
+	top: "35",
+	left: "10dp",
+	color: "#2554C7",
+	font: {
+		fontSize: '14dp'
+	}
+}
+
+".imgButton":{
+	width: "70",
+	backgroundColor: "#2554C7",
+	borderRadius: "4",
+	tintColor: "#FFFFFF"
+}

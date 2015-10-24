@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="mainWindow" title="JustDoIt" platform="android,ios">
+		<!---------- Header ---------->
+		<View id="header">
+			<Label id="viewDialog" onClick="openViewDialog">View All Tasks</Label>
+			<Label id="title">JustDoIt</Label>
+			<View id="addView" onClick="addNewTask">
+				<ImageView id="addImage"/>
+			</View>
+		</View>
+		<!---------- ToDo Table View ---------->
+		<TableView id="todoTable" dataCollection="toDo">
+			<Require src="row"></Require>
+		</TableView>
+		<!---------- Dialog Option to choose All/Pending/Completed tasks ---------->
+		<OptionDialog id="dialog" onClick="onTaskDialogClick">
+			<Options>
+				<Option>All Tasks</Option>
+				<Option>Pending</Option>
+				<Option>Completed</Option>
+				<Option>Cancel</Option>
+			</Options>
+		</OptionDialog>
+	</Window>
+</Alloy>

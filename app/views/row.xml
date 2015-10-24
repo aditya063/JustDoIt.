@@ -1,0 +1,12 @@
+<Alloy>
+	<TableViewRow id="row" onClick="openEdit">
+		<View id="statusColor"></View>
+		<Label id="task" text="{task}"/>
+		<Label id="dueDate" text="{dueDate}" />
+		<View layout="vertical" left='120'>
+			<Button id="shareButton">Share</Button>
+			<Button id="deleteButton" onClick="onDeleteTask">Delete</Button>
+		</View>
+		<Switch id="statusSwitch" value="{taskStatus}" onChange="statusChange"></Switch>
+	</TableViewRow>
+</Alloy>

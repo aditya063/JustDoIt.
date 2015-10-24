@@ -1,0 +1,26 @@
+----------------------------------
+----------------------------------
+			JustDoIt
+----------------------------------
+----------------------------------
+
+**Achieved:
+1. Create a TODO list app with the following fields ­ To do item ­TextArea
+­ 	To be completed by ­ Date
+­ 	Status (Completed|Pending) ­ switch
+­ 	Image (Optional) ­ Imageview
+2. iOS and Android must be supported. (If you don't have a Mac to support iOS let us know as soon as you receive the test)
+3. As a user I should be able to create a new TODO. All created tasks are marked as pending.
+4. As a user I should be able to see all my TODOs in a list.
+
+**Partially Achieved
+5. As a user I should be able to toggle between completed or pending TODOs ­ Brownie point
+8. As a user I should be able to complete a task and you should differentiate between completed and pending tasks using appropriate UI changes.
+11. As a user I should be able to add an image to each task, either from the gallery or directly from the camera. ­ Brownie point
+
+
+**Pending
+6. As a user I should be able to edit a TODO.
+9. As a user I should be able to share a TODO task. At least email and SMS is required, FB and TW are a bonus. ­ Brownie point
+10. As a user I should be able to close the app and open it again without losing any TODO tasks. ­ Brownie point
+12. As a user If i click on the thumbnail image, I should be able to see this in full screen in a separate window.­ Brownie point

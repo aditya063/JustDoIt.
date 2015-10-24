@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="editTask" title="Edit Task" modal="true" onOpen="onFocusTextField">
+		<Label class="label" top="35">EDIT THE TASK</Label>
+		<TextField id="editTaskTextField" class="textField" hintText="Type your task here..." onReturn="onCloseKeyboard"/>
+		<Label class="label" top="10">DUE DATE</Label>
+		<TextField id="taskDateField" class="textField" hintText="Enter the due date." editable="false" />
+		<Label class="label" top="10"></Label>
+		<View id="test" height="120">
+			<Button id="buttonGallery" class="imgButton" left="70">Gallery</Button>
+			<Button id="buttonCamera" class="imgButton"  right="70">Camera</Button>
+		</View>
+		<ImageView id="taskImage" ></ImageView>
+		<Button class="imgButton" onClick="onEditTask">Save Task</Button>
+		<Button class="imgButton" onClick="onCloseWindow" top="5">Cancel</Button>
+		<View id="pickerView" visible="false" top="1"></View>
+	</Window>
+</Alloy>

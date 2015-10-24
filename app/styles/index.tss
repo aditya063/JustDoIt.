@@ -1,0 +1,104 @@
+"#mainWindow": {
+	backgroundColor: "#fff",
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+
+"#header": {
+	top: '20',
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: {
+			x: "0%",
+			y: "0%"
+		},
+		endPoint:   {
+			x: "0%",
+			y: "100%"
+		},
+		colors: [
+			{
+				color: "#2554C7",
+				offset: 0.0
+			},
+			{
+				color: "#357EC7",
+				offset: 1.0
+			}
+		]
+	}
+}
+
+"#header[platform=android]": {
+	top: '0',
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: {
+			x: "0%",
+			y: "0%"
+		},
+		endPoint:   {
+			x: "0%",
+			y: "100%"
+		},
+		colors: [
+			{
+				color: "#2554C7",
+				offset: 0.0
+			},
+			{
+				color: "#357EC7",
+				offset: 1.0
+			}
+		]
+	}
+}
+
+"#title": {
+	left: "10dp",
+	color: "#fff",
+	font: {
+		fontSize: '24dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#dialog": {
+	destructive: "3",
+	selectedIndex: "0"
+}
+
+"#viewDialog": {
+	right: "70dp",
+	color: "#000",
+	font: {
+		fontSize: '16dp',
+		textStyle: Titanium.UI.TEXT_STYLE_SUBHEADLINE
+	}
+}
+
+"#addView": {
+	top: 0,
+	bottom: 0,
+	right: 0,
+	width: "50dp"
+}
+
+"#addImage": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	color: "#fff",
+	backgroundColor: "transparent",
+	image: "/ic_menu_add.png",
+	touchEnabled: false
+}
+
+"#todoTable": {
+	top: '70',
+	bottom: '46dp'
+}
