@@ -7,7 +7,7 @@ function onAddTask() {
 		alert("Please Type Task Name.");
 	} else {
 		var todos = Alloy.Collections.toDo;
-		$.taskDateField.value = Date().toString().substring(4, 15);
+		$.taskDateField.value = Date().toString().substring(4, 15); //
 		//Create a new model for the todo collection
 		var task = Alloy.createModel('toDo', {// creates an instance of a backbone model. (i.e. creates a new todo task to add in collection)
 			task : $.taskTextField.value,

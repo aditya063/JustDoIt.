@@ -1,3 +1,5 @@
+
+
 var todos = Alloy.Collections.toDo;
 
 
@@ -11,7 +13,7 @@ function addNewTask() {
 }
 
 function onTaskDialogClick(e){// Display tasks All/Pending/Completed
-	if (e.index == 1) {// http://developer.appcelerator.com/question/162130/alloy-collection-data-binding---datafilter-on-tableview#answer-274667
+	if (e.index == 1) {// http://developer.appcelerator.com/question/162130/alloy-collection-data-binding---datafilter-on-tableview#answer-274667 // should use ===
 		todos.fetch({
 			query : 'SELECT * FROM toDo WHERE taskStatus="false"'
 		});
